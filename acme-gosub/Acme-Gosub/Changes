@@ -1,5 +1,7 @@
 Revision history for Acme-Gosub
 
+        - Enhanced Build.PL : dist_author, keywords and resources.
+
 0.1.3   Fri Mar 14 15:38:22 IST 2008
         - Added the examples/japh.pl file.
         - Added the Build.PL for kwalitee and better maintenance.
