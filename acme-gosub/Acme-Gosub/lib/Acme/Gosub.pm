@@ -5,7 +5,7 @@ use warnings;
 use vars qw($VERSION);
 use Carp;
 
-$VERSION = '0.1.3';
+$VERSION = '0.1.4';
 
 # LOAD FILTERING MODULE...
 use Filter::Util::Call;
@@ -230,9 +230,13 @@ your bug as I make changes.
 =head1 COPYRIGHT & LICENSE
 
 Copyright (c) 1997-2003, Damian Conway. All Rights Reserved.
-Copyright (c) 2005 Shlomi Fish, All Rights Reserved.
+Modified by Shlomi Fish, 2005 - all rights disclaimed.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
+
+=head1 SEE ALSO
+
+L<Acme::ComeFrom> .
 
 =cut
