@@ -1,0 +1,13 @@
+Build.PL
+Changes
+examples/japh.pl
+lib/Acme/Gosub.pm
+Makefile.PL
+MANIFEST
+META.yml # Will be created by "make dist"
+README
+t/00-load.t
+t/01-basic.t
+TODO
+t/pod.t
+t/pod-coverage.t
