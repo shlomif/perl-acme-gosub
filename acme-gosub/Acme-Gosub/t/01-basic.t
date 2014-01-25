@@ -13,7 +13,7 @@ sub factorial
 
     my $prod = 1;
     gosub CALC;
-    
+
     return $prod;
 CALC:
     if ($n > 1)
@@ -30,7 +30,7 @@ sub factorial2
 
     my $prod = 1;
     gosub CALC;
-    
+
     return $prod;
 CALC:
     if ($n > 1)
@@ -48,7 +48,7 @@ sub factorial3
 
     my $prod = 1;
     gosub "CALC";
-    
+
     return $prod;
 CALC:
     if ($n > 1)

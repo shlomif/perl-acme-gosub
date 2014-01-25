@@ -30,7 +30,7 @@ sub import
 }
 
 sub unimport
-{	
+{
 	filter_del()
 }
 
@@ -110,10 +110,10 @@ sub filter_blocks
                 # This is an Evil hack that meant to get Text::Balanced to do
                 # what we want. What happens is that we put an initial ";"
                 # so the end of the statement will be a ";" too.
-                my $source_for_text_balanced = ";" . 
+                my $source_for_text_balanced = ";" .
                     substr($source, $pos_source);
                 pos($source_for_text_balanced) = 0;
-    			@pos = Text::Balanced::_match_codeblock(\$source_for_text_balanced,qr/\s*/,qr/;/,qr/;/,qr/[[{(<]/,qr/[]})>]/,undef) 
+    			@pos = Text::Balanced::_match_codeblock(\$source_for_text_balanced,qr/\s*/,qr/;/,qr/;/,qr/[[{(<]/,qr/[]})>]/,undef)
     		        or do {
     					die "Bad gosub statement (problem in the parentheses?) near $Acme::Gosub::file line ", line(substr($source_for_text_balanced,0,pos $source_for_text_balanced),$line), "\n";
     				};
@@ -124,7 +124,7 @@ sub filter_blocks
                 pos($source) = $future_pos_source;
             }
 
-            my $next_ret_label = "__G_O_S_U_B_RET_LABEL_" . 
+            my $next_ret_label = "__G_O_S_U_B_RET_LABEL_" .
                 ($next_label_idx++);
 
             $text .= "push \@{\$Acme::Gosub::ret_labels{(caller(0))[3]}}, \"$next_ret_label\";";
@@ -174,7 +174,7 @@ Acme::Gosub - Implement BASIC-like "gosub" and "greturn" in Perl
         $square = $temp * $temp;
         greturn;
     }
-    
+
 =head1 DESCRIPTION
 
 Using this function enables using the "gosub" and "greturn" statements inside
@@ -208,12 +208,12 @@ Cancels the filter.
 Damian Conway is the original author of L<Switch.pm> on which this module
 is based.
 
-Shlomi Fish ( C<< <shlomif@iglu.org.il> >> ) converted Switch.pm to become 
+Shlomi Fish ( C<< <shlomif@iglu.org.il> >> ) converted Switch.pm to become
 Acme::Gosub.
 
 =head1 BUGS
 
-The function's gosub recursion stack is function-wide and so different 
+The function's gosub recursion stack is function-wide and so different
 instances of the function will all use the same recursion stack. Hopefully
 it will be fixed in later versions.
 
