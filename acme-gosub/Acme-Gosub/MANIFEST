@@ -2,7 +2,6 @@ Build.PL
 Changes
 examples/japh.pl
 lib/Acme/Gosub.pm
-Makefile.PL
 MANIFEST
 META.yml # Will be created by "make dist"
 README
