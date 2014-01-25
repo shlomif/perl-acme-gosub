@@ -1,5 +1,10 @@
 Revision history for Acme-Gosub
 
+        - Add a minimal version of perl.
+            - Kwalitee.
+        - Add t/style-trailing-space.t
+            - Remove trailing space.
+
 0.1.4   Wed Jul  1 17:02:04 IDT 2009
         - Enhanced Build.PL : dist_author, keywords and resources.
 
