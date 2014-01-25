@@ -6,8 +6,9 @@ use Module::Build;
 my $build = Module::Build->new(
     'module_name' => "Acme::Gosub",
     dist_author => 'Shlomi Fish <shlomif@cpan.org>',
-    'requires' => 
+    'requires' =>
     {
+        perl => '5.008',
         'Filter::Util::Call' => 0,
         'Text::Balanced' => 0,
     },

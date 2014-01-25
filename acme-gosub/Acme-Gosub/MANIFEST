@@ -11,3 +11,4 @@ t/01-basic.t
 TODO
 t/pod.t
 t/pod-coverage.t
+META.json
