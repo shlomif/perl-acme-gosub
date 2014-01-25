@@ -8,13 +8,18 @@ my $build = Module::Build->new(
     dist_author => 'Shlomi Fish <shlomif@cpan.org>',
     'requires' =>
     {
-        perl => '5.008',
+        'Carp' => 0,
         'Filter::Util::Call' => 0,
         'Text::Balanced' => 0,
+        'perl' => '5.008',
+        'strict' => 0,
+        'vars' => 0,
+        'warnings' => 0,
     },
     build_requires =>
     {
-        "Test::More" => 0,
+        'Module::Build' => '0.37',
+        'Test::More' => 0,
     },
     'license' => "perl",
     meta_merge =>
