@@ -26,7 +26,7 @@ my $build = Module::Build->new(
     {
         resources =>
         {
-            repository => "https://svn.berlios.de/svnroot/repos/web-cpan/Acme-Gosub/",
+            repository => "https://bitbucket.org/shlomif/perl-acme-gosub",
         },
         keywords =>
         [
