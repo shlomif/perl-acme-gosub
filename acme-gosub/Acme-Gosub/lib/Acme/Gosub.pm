@@ -205,10 +205,10 @@ Cancels the filter.
 
 =head1 AUTHOR
 
-Damian Conway is the original author of L<Switch.pm> on which this module
+Damian Conway is the original author of L<Switch.pm>, on which this module
 is based.
 
-Shlomi Fish ( C<< <shlomif@iglu.org.il> >> ) converted Switch.pm to become
+Shlomi Fish ( L<http://www.shlomifish.org/> ) converted Switch.pm to become
 Acme::Gosub.
 
 =head1 BUGS

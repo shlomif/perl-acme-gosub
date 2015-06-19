@@ -1,5 +1,8 @@
 Revision history for Acme-Gosub
 
+0.1.6   2015-06-19
+        - Update old E-mail address.
+
 0.1.5   2014-01-25
         - Add a minimal version of perl.
             - Kwalitee.
