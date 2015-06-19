@@ -7,6 +7,8 @@ README
 TODO
 examples/japh.pl
 lib/Acme/Gosub.pm
+scripts/bump-version-number.pl
+scripts/tag-release.pl
 t/00-load.t
 t/01-basic.t
 t/cpan-changes.t
