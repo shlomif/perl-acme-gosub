@@ -3,7 +3,7 @@ gosub $TARGET;
     ==>
     push @{$Acme::Gosub::RetLabels{$Func_Name}}, "GOSUB_RET_LABEL_$i";
     goto $TARGET;
-    
+
     __GOSUB_RET_LABEL_$i:
 
 greturn;
