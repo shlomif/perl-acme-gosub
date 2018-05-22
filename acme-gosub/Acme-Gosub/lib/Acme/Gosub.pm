@@ -2,10 +2,7 @@ package Acme::Gosub;
 
 use strict;
 use warnings;
-use vars qw($VERSION);
 use Carp;
-
-$VERSION = '0.1.6';
 
 # LOAD FILTERING MODULE...
 use Filter::Util::Call;

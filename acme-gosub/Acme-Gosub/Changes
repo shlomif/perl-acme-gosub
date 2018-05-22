@@ -1,5 +1,8 @@
 Revision history for Acme-Gosub
 
+0.1.7   2018-05-22
+        - Convert to dzil .
+
 0.1.6   2015-06-19
         - Update old E-mail address.
         - Remove \t from the distribution.
