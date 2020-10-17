@@ -2,7 +2,7 @@ package Acme::Gosub;
 
 use strict;
 use warnings;
-use Carp;
+use Carp qw/ croak /;
 
 # LOAD FILTERING MODULE...
 use Filter::Util::Call;
@@ -207,20 +207,6 @@ is based.
 
 Shlomi Fish ( L<http://www.shlomifish.org/> ) converted Switch.pm to become
 Acme::Gosub.
-
-=head1 BUGS
-
-The function's gosub recursion stack is function-wide and so different
-instances of the function will all use the same recursion stack. Hopefully
-it will be fixed in later versions.
-
-I am not sure whether this will work on dynamic functions (a.k.a closures).
-
-Please report any bugs or feature requests to
-C<bug-acme-gosub@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-Gosub>.
-I will be notified, and then you'll automatically be notified of progress on
-your bug as I make changes.
 
 =head1 ACKNOWLEDGEMENTS
 

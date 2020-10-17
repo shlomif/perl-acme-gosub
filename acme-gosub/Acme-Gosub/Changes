@@ -1,5 +1,9 @@
 Revision history for Acme-Gosub
 
+0.1.9   2020-10-17
+    - Avoid stale POD
+        - Inspired by Lady_Aleena . Thanks!
+
 0.1.8   2019-08-23
         - Move to https://github.com/shlomif/perl-acme-gosub/ .
 
